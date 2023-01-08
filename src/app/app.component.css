@@ -1,0 +1,42 @@
+.weather-input {
+    outline-width: 0;
+        background-color: #d052d0;
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
+
+.weather-input::-webkit-input-placeholder {
+    
+    color: white;
+}
+.image {
+    position: relative;
+        display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center
+}
+.image-text {
+    position: absolute;
+    
+    color: rgb(69, 34, 69);
+    font-weight: 800;
+    /* margin: auto; */
+}
+.image-text h1 {
+    font-weight: 900;
+}
+.image-text h2 {
+    font-weight: 700;
+        
+}
+.extra-information {
+background: #7e217e;
+}
+.button {
+    padding-block: 8px;
+    background: #7e217e;
+    border-radius: 20px;
+    cursor: pointer;
+}
